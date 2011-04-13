@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/test"/>
+	<classpathentry kind="src" path="dsl"/>
+	<classpathentry kind="src" path="src/config"/>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/javacsv.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.12.jar"/>
+	<classpathentry kind="lib" path="lib/jcommon-1.0.9.jar"/>
+	<classpathentry kind="lib" path="lib/jfreechart-1.0.5.jar"/>
+	<classpathentry kind="lib" path="lib/xstream-1.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/freemarker.jar"/>
+	<classpathentry kind="lib" path="lib/joda-time-1.4.jar" sourcepath="lib/joda-time-1.4-src-ide.zip"/>
+	<classpathentry kind="lib" path="lib/poi-3.0.1-FINAL-20070705.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/asm-2.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/asm-commons-2.2.3.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/backport-util-concurrent.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/bsf.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/emma_ant.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/emma.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/jarjar-0.7.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/jline-0.9.91.jar"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/jruby.jar" sourcepath="/TailS/lib/jruby-src-1.0.1.zip"/>
+	<classpathentry kind="lib" path="lib/dsl/ruby/jruby-engine.jar" sourcepath="/home/marcio/workspace/TailS/lib/jruby-src-1.0.1.zip"/>
+	<classpathentry kind="lib" path="lib/jython.jar"/>
+	<classpathentry kind="lib" path="lib/jython-engine-1.0-jdk14.jar"/>
+	<classpathentry kind="lib" path="lib/xpp3_min-1.1.3.4.O.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

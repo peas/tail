@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<project name="tail" default="jar">
+
+	<property name="src" value="src/" />
+	<property name="build" value="bin" />
+	<property name="version" value="0.6-SNAPSHOT" />
+
+	<target name="clean">
+		<delete dir="${build}" />
+		<mkdir dir="${build}" />
+	</target>
+	
+	<target name="compile" depends="clean">
+		<javac srcdir="${src}" destdir="${build}" debug="true">
+			<classpath>
+				<fileset dir="lib">
+					<include name="*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+
+	<target name="jar" depends="compile">
+		<jar destfile="tail-${version}.jar" basedir="${build}">
+			<fileset dir="src/java" includes="net/sf/tail/i18n/*.properties" />
+		</jar>
+	</target>
+	
+</project>

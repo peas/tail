@@ -1,0 +1,6 @@
+bin
+build
+jar
+CVS
+**/CVS
+*/CVS/*
